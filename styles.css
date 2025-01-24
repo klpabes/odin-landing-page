@@ -30,9 +30,11 @@ a {
     text-decoration: none;
 }
 
-.header-nav {
+.header-nav > a {
     font-size: 24px;
     padding: 12px;
+
+    flex-shrink: 0;
 }
 
 a {
