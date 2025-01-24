@@ -1,0 +1,26 @@
+* {
+    font-family: Roboto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    gap: 8px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
