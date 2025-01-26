@@ -9,19 +9,12 @@ body, html {
 }
 
 .con {
-    padding: 0 20vh;
-    padding-bottom: 5vh;
+    padding: 2vh 20vh;
 }
 
 .header {
-    width: 100vw;
-    height: 60vh;
     background-color: #1f2937;
     color: white;
-
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
 }
 
 .header-nav {
@@ -32,7 +25,7 @@ body, html {
 
 .header-links {
     display: flex;
-    gap: 8px;
+    gap: 16px;
 }
 
 ul {
@@ -63,9 +56,10 @@ a {
 .header-content {
     flex-grow: 1;
     flex-shrink: 1;
+    padding: 5vh 0;
 
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     gap: 32px;
     flex-wrap: wrap;
@@ -76,8 +70,7 @@ a {
 }
 
 .hero-img {
-    min-width: 0;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .hero-con, .hero-img {
