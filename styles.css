@@ -161,3 +161,42 @@ a {
     align-self: flex-end;
     font-weight: bold;
 }
+
+.action {
+
+    width: 100%;
+    height: 30vh;
+    color: #1f2937;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.action-con {
+    background-color: #3882f6;
+    width: 60vw;
+    height: 10vh; 
+
+    padding: 10px 100px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.action-item > p {
+    margin: 2px;
+}
+
+.action-con > button {
+    color: white;
+    background-color: #3882f6;
+    border: solid white 1px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
